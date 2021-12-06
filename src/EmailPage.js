@@ -46,7 +46,7 @@ function EmailVerfication() {
                 setEmail('');
                 e.target.reset();
                 
-            } else {
+            } else if(data === 'duplicate'){
                 setLoading(false)
                 swal.fire({
                     icon: 'error',
