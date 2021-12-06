@@ -65,7 +65,7 @@ function PasswordChange() {
     }
 
     return (
-        <>
+        <div className="App">
             {
                 loading?<HashLoader color={"blue"} loading={loading} css={override} size={50} /> :
             
@@ -119,7 +119,7 @@ function PasswordChange() {
        
                 </div>
             }
-            </>
+            </div>
     )
 }
 
