@@ -1,16 +1,16 @@
 
 import EmailPage from "./EmailPage";
 import ChangePassword from "./PasswordChange";
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 
 function RoutesPage() {
     return (
-        <BrowserRouter>
+        <HashRouter>
         <Routes>     
                 <Route exact path="/chng_pwd/:token" element={<ChangePassword />}></Route>
                 <Route exact path="/" element={<EmailPage/>} ></Route>
         </Routes>    
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
