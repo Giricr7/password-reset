@@ -3,6 +3,7 @@ import { useState } from "react"
 import URL from "./url";
 import axios from "axios";
 import swal from "sweetalert2";
+import './style.css';
 import {HashLoader} from "react-spinners"
 import { css } from "@emotion/react";
 import PublishTwoToneIcon from '@mui/icons-material/PublishTwoTone';
@@ -62,20 +63,17 @@ function EmailVerfication() {
         <div className = "App">
        {loading ?<HashLoader color={"blue"} loading={loading} css={override} size={50} /> : <div className="App" style={{ padding: "10%",background:"#bdbdbd" }}>
         <Grid
+        className="email_grid"
         container
         spacing={0}
         direction="column"
         alignItems="center"
         justify="center"
-        style={{ minHeight: '100vh',minWidth:"500px" }}
         >
-
-        <Grid item xs={3}>
-                            </Grid>
-                            <h2 style={{color:"black",fontFamily:"monospace"}}>Forgot Password</h2>
-                        <Card
-                            style={{minWidth: "500px",borderRadius:"20px"}}
-                        
+                    <h2 style={{color:"black",fontFamily:"monospace"}}>Forgot Password</h2>
+                    <Card
+                        className="email_card"
+                        style={{borderRadius:"20px"}}
                     >
                         <form onSubmit={HandleSubmit}>
                             <CardContent  style={{minWidth: "400px" }}>

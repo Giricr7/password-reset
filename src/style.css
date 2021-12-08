@@ -22,3 +22,19 @@
     width: 100%;
     height: 100vh;
 }
+
+.email_grid,.pass_grid{
+    height: 100vh;
+    width:100%;
+}
+
+.email_card,.pass_card{
+    width: 50%;
+}
+
+@media only screen and (max-width: 1080px) {
+    .email_grid,.email_card,.pass_grid,.pass_card {
+      width: 100%;
+    }
+  }
+  

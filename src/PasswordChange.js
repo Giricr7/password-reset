@@ -70,21 +70,18 @@ function PasswordChange() {
                 loading?<HashLoader color={"blue"} loading={loading} css={override} size={50} /> :
             
                 <div style={{ padding: "10%", background: "#bdbdbd" }}>
-                    <Grid
+                        <Grid
+                            className="pass_grid"
                         container
                         spacing={0}
                         direction="column"
                         alignItems="center"
                         justify="center"
-                        style={{ minHeight: '100vh', minWidth: "500px" }}
                     >
-
-                        <Grid item xs={3}>
-                        </Grid>
                         <h2 style={{ color: "black", fontFamily: "monospace" }}>New Password</h2>
-                        <Card
-                            style={{ minWidth: "500px", borderRadius: "20px" }}
-                        
+                            <Card
+                                className="pass_card"
+                            style={{borderRadius: "20px" }}
                         >
                             <form onSubmit={handleSubmit}>
                                 <CardContent style={{ minWidth: "400px" }}>
