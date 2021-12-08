@@ -76,7 +76,7 @@ function EmailVerfication() {
                         style={{borderRadius:"20px"}}
                     >
                         <form onSubmit={HandleSubmit}>
-                            <CardContent  style={{minWidth: "400px" }}>
+                            <CardContent  style={{padding:"3%" }}>
                               <DraftsTwoToneIcon style={{color:"blue"}}/>  
                             <TextField
                                 id="outlined-email-input"
