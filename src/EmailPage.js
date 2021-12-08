@@ -60,7 +60,8 @@ function EmailVerfication() {
 
     return (
         <div className = "App">
-       {loading ?<HashLoader color={"blue"} loading={loading} css={override} size={50} /> : <div className="App" style={{ padding: "10%",background:"#bdbdbd" }}>
+            {loading ? <HashLoader color={"blue"} loading={loading} css={override} size={50} /> :
+                <div className="App" style={{ padding: "5%", background: "#bdbdbd" }}>
         <Grid
         className="email_grid"
         container

@@ -78,7 +78,7 @@ function PasswordChange() {
                         alignItems="center"
                         justify="center"
                     >
-                        <h2 style={{ color: "black", fontFamily: "monospace" }}>New Password</h2>
+                        <h2 style={{ color: "black", fontFamily: "monospace" }}>Password Reset</h2>
                             <Card
                                 className="pass_card"
                             style={{borderRadius: "20px" }}
