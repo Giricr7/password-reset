@@ -84,7 +84,7 @@ function PasswordChange() {
                             style={{borderRadius: "20px" }}
                         >
                             <form onSubmit={handleSubmit}>
-                                <CardContent style={{ minWidth: "400px" }}>
+                                <CardContent style={{ padding:"3%" }}>
                                     <LockOpenTwoToneIcon style={{ color: "blue" }} />
                                     <TextField
                                         id="newPassword"
