@@ -69,7 +69,7 @@ function PasswordChange() {
             {
                 loading?<HashLoader color={"blue"} loading={loading} css={override} size={50} /> :
             
-                <div style={{ padding: "10%", background: "#bdbdbd" }}>
+                <div style={{ padding: "5%", background: "#bdbdbd" }}>
                         <Grid
                             className="pass_grid"
                         container

@@ -3,7 +3,6 @@ import { useState } from "react"
 import URL from "./url";
 import axios from "axios";
 import swal from "sweetalert2";
-import './style.css';
 import {HashLoader} from "react-spinners"
 import { css } from "@emotion/react";
 import PublishTwoToneIcon from '@mui/icons-material/PublishTwoTone';
